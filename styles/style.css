@@ -1,11 +1,13 @@
 /* CSS Document */
 *, *::after, *::before {
-  box-sizing:border-box;  
+  box-sizing:border-box;
 }
 
 html, body {
-  height:100%;
-  margin:0;
+    height:100%;
+    margin:0;
+    font-family: "NiseSegaSonic";
+    background-image: url(../../VIDii/images/Backgrond.jpeg);
 }
 
 button:not([disabled]) {
@@ -14,6 +16,65 @@ button:not([disabled]) {
 
 /* jouw CSS vanaf hier */
 
-h1 {
-  color:crimson;
+main {
+   display: grid
 }
+
+h1 {
+    color: white;
+    padding-left: 1em;
+}
+
+p {
+    color: white;
+    padding-left: 2em;
+}
+
+ol {
+    display: grid;
+    grid-template-columns: 170px 170px 170px 170px;
+    padding-left: 1em;
+}
+
+li {
+    list-style: none;
+    margin: 1em;
+    padding: 1em;
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-color: #FA9F1A;
+    border-width: 1.2em;
+    border-radius: 50% 50% 50% 50%;
+    box-shadow: .2em .2em .25em #945F0C,
+        inset .2em .2em .25em #945F0C;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+}
+
+li:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-style: solid;
+    border-color: #00000000;
+    border-width: 1.2em;
+    border-radius: 50% 50% 50% 50%;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    box-shadow: -.5em -.5em .25em #FBCD38,
+        .5em .5em .25em #FBCD38;
+}
+
+a {
+    color: #FA9F1A;
+    font-size: 1.75em;
+    text-shadow: 2px 2px .1em #945F0C,
+        -2px -2px .1em #FBCD38;
+    text-decoration: none;
+}
+
