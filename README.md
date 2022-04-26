@@ -34,8 +34,8 @@ Mijn startniveau is: Blauw
   ### Je ambitie:
   Aan deze technieken/punten wil ik werken:
   - Ik wil graag mijn kennis van HTML, CSS en JS weer een beetje ophalen en verbeteren. In min voorafgaande jaren heb ik heel wat dingen geleerd die ik ondertussen een beetje vergeten ben dus na het volgen van dit vak hoop ik de basics weer te weten en meer.
-  - Ik wil me verbeteren in de stijling van CSS aangezien ik dat het leukste onderdeel vind om te doen, ik hou er van om wat moois op te leveren en dat zou tof zijn als ik dat ook wat beter met code kan.
-  - Ik wil meer leren van het coderen van animaties. Ik heb hiervoor verschillende vakken gevolgd die dingen deden met aniaties als motion design en heb gemerkt dat ik hier een passie voor heb. Dus om nog meer te leren van animaties en die dan omzetten in code zou ik heel tof vinden.
+  - Ik wil me verbeteren in de styling van CSS aangezien ik dat het leukste onderdeel vind om te doen, ik hou ervan om wat moois op te leveren en dat zou tof zijn als ik dat ook wat beter met code kan.
+  - Ik wil meer leren van het coderen van animaties. Ik heb hiervoor verschillende vakken gevolgd die dingen deden met animaties als motion design en heb gemerkt dat ik hier een passie voor heb. Dus om nog meer te leren van animaties en die dan omzetten in code zou ik heel tof vinden.
 
 </details>
 
@@ -59,7 +59,7 @@ Mijn startniveau is: Blauw
   Hoe geef je de achtergrond weer? In oude pixel-vorm of realistische moderne vorm?
 
   #### oplossing:
-  Ik ben van plan de achtergrinden zo weer te geven dat ze bij dat jaartal en het karakter passen. Je krijgt dan bij de nieuwste versies van sonic een realistische/3d achtergrond en bij de pixelige karakters een pixelige achtergrond.
+  Ik ben van plan de achtergronden zo weer te geven dat ze bij dat jaartal en het karakter passen. Je krijgt dan bij de nieuwste versies van Sonic een realistische/3d achtergrond en bij de pixelige karakters een pixelige achtergrond.
 
 
 
@@ -67,12 +67,12 @@ Mijn startniveau is: Blauw
   Animatie verwerken in de muntjes door middel van hover? Of in rollende Sonic?
 
   #### oplossing:
-  Het lijkt me tof om de muntjes een horizontaal draaiende animatie mee te geven aangezien ze dat ook doen in de daadwerkelijke game en sonic zelf springt en draait ook veel in de game dus het lijkt me leuk om dat ook in get ontwerp te verwerken.
+  Het lijkt me tof om de muntjes een horizontaal draaiende animatie mee te geven aangezien ze dat ook doen in de daadwerkelijke game en Sonic zelf springt en draait ook veel in de game dus het lijkt me leuk om dat ook in get ontwerp te verwerken.
 
 
 
   ### Bevinding 4:
-  Ga je zelf de sonics illustreren of maak je gebruik van afbeeldingen?
+  Ga je zelf de Sonics illustreren of maak je gebruik van afbeeldingen?
 
   #### oplossing:
   Ik wil proberen de muntjes zelf te gaan illustreren in HTML en CSS zodat ik ook deze vaardigheid onder de knie krijg. Verder gebruik ik bestaande afbeeldingen van de Sonic personages aangezien die per jaartal en game hun eigen vormgeving hebben gekregen en ik juist duidelijk wil laten zien.
@@ -83,7 +83,7 @@ Mijn startniveau is: Blauw
   Misschien onder of boven Sonic de specifieke naam en het jaartal laten zien?
 
   #### oplossing:
-  Een beetje feedformward geven is inderdaad een goed idee! Ik wil so wie so het jaartal in de ringen laten weergeven en door de animaties laten zien welke je hebt geselecteerd maar wie weet kan ik daar nog meer mee.
+  Een beetje feed forward geven is inderdaad een goed idee! Ik wil so wie so het jaartal in de ringen laten weergeven en door de animaties laten zien welke je hebt geselecteerd maar wie weet kan ik daar nog meer mee.
 
 </details>
 
@@ -112,16 +112,16 @@ Mijn startniveau is: Blauw
   Met de tool "https://contrast-ratio.com/" heb ik kunnen checken of mijn contrasten goed genoeg waren en als hieruit bleek dat de contrast ratio niet voldoende was heb ik de achtergrond afbeelding aangepast.
 
   ### Bevinding 3:
-  Op het feedback formulier is aangegeven dat mijn fonts nog niet correct getoond worden als de pagina imn Github wordt getoont.
+  Op het feedback formulier is aangegeven dat mijn fonts nog niet correct getoond worden als de pagina in Github wordt getoond.
 
   #### oplossing:
-  Deze oplossing wordt ons uitgelecht in de les van dinsdag 26 april. Ook is deze les op dlo te vinden en hieruit blijkt dat er drie verschillende manieren zijn om het op te lossen. Ik heb voor de @font-face menier gekozen.
+  Deze oplossing wordt ons uitgelecht in de les van dinsdag 26 april. Ook is deze les op dlo te vinden en hieruit blijkt dat er drie verschillende manieren zijn om het op te lossen. Ik heb voor de @font-face manier gekozen.
 
   ### Bevinding 4:
   Op het feedback formulier is aangegeven dat de states van de interactieve elementen niet passen bij het ontwerp.
 
   #### oplossing:
-  De states appart een opmaak geven, bijvoorbeeld een actieve state in een ring inplaats van het default vierkantje.
+  De states apart een opmaak geven, bijvoorbeeld een actieve state in een ring in plaats van het default vierkantje.
 
   ### Bevinding 5:
   Op het feedback formulier is aangegeven dat er in de CSS geen commentaar is opgenomen om de structuur duidelijk te maken en om uitleg te geven.
@@ -145,12 +145,12 @@ Mijn startniveau is: Blauw
   Op het feedback formulier wordt aangegeven dat de jaartallen een stukje uit steken onder het scherm waar de achtergrond afbeelding stopt.
 
   #### oplossing:
-  Dit heb ik opgelost door de "background-size" op "cover" te zetten en de "ol" (het gedeelte onde de ringen dus) een "padding" aan de onderkant te geven.
+  Dit heb ik opgelost door de "background-size" op "cover" te zetten en de "ol" (het gedeelte onder de ringen dus) een "padding" aan de onderkant te geven.
 
 
 
   ### Bevinding 2:
-  Op het feedback formulier wordt aangegeven dat ik nogesteeds geen commentaar verwerkt heb na de vorrige feedback.
+  Op het feedback formulier wordt aangegeven dat ik nog steeds geen commentaar verwerkt heb na de vorige feedback.
 
   #### oplossing:
   Dit keer wel echt commentaar toevoegen in de css met /*...*/ .
@@ -160,14 +160,14 @@ Mijn startniveau is: Blauw
   Op het feedback formulier wordt aangegeven dat ik geen bronnen heb opgenomen.
 
   #### oplossing:
-  Veel bronnen heb ik niet gebruikt, af en toe alleen even gespiekt op "https://www.w3schools.com/" om te kijken hoe het ook al weer zat. Deze website zal ik in mijn code toevoegen.
+  Veel bronnen heb ik niet gebruikt, af en toe alleen even gespiekt op "https://www.w3schools.com/" om te kijken hoe het ook alweer zat. Deze website zal ik in mijn code toevoegen.
 
 
   ### Bevinding 4:
   Op het feedback formulier wordt aangegeven dat de CSS properties niet binnen een selector staan in dezelfde volgorde.
 
   #### oplossing:
-  Dit kan ik gemakkelijk oplossen door de structuur van mijn code wat netter te maken en wat meer te groepeeren. Dus toepassen wat we in de les van donderdag behandeld hebben.
+  Dit kan ik gemakkelijk oplossen door de structuur van mijn code wat netter te maken en wat meer te groeperen. Dus toepassen wat we in de les van donderdag behandeld hebben.
 
 
 
@@ -194,16 +194,35 @@ Mijn startniveau is: Blauw
   <summary>Mijn eindresultaat & persoonlijke ontwikkeling</summary>
 
   ### Je uitkomst - karakteristiek screenshot(s):
+  Home page:
   <img src="readme-images/FinalDesign.png" width="375px" alt="final ontwerp">
+
+  Detail pages:
+  <img src="readme-images/FinalDesign1988.png" width="375px" alt="final ontwerp 1988">
+  <img src="readme-images/FinalDesign1991.png" width="375px" alt="final ontwerp 1991">
+  <img src="readme-images/FinalDesign1994.png" width="375px" alt="final ontwerp 1994">
+  <img src="readme-images/FinalDesign1996.png" width="375px" alt="final ontwerp 1996">
+  <img src="readme-images/FinalDesign1997.png" width="375px" alt="final ontwerp1997">
+  <img src="readme-images/FinalDesign1998.png" width="375px" alt="final ontwerp1998">
+  <img src="readme-images/FinalDesign1999.png" width="375px" alt="final ontwerp 1999">
+  <img src="readme-images/FinalDesign2001.png" width="375px" alt="final ontwerp 2001">
+  <img src="readme-images/FinalDesign2003.png" width="375px" alt="final ontwerp 2003">
+  <img src="readme-images/FinalDesign2006.png" width="375px" alt="final ontwerp 2006">
+  <img src="readme-images/FinalDesign2008.png" width="375px" alt="final ontwerp 2008">
+  <img src="readme-images/FinalDesign2010.png" width="375px" alt="final ontwerp 2010">
+  <img src="readme-images/FinalDesign2011.png" width="375px" alt="final ontwerp 2011">
+  <img src="readme-images/FinalDesign2014.png" width="375px" alt="final ontwerp 2014">
+  <img src="readme-images/FinalDesign2016.png" width="375px" alt="final ontwerp 2016">
+  <img src="readme-images/FinalDesign2022.png" width="375px" alt="final ontwerp 2022">
 
 
   ### Dit ging goed/Heb ik geleerd:
-  Ik vond het erg leuk om weer de HTML, CSS en JS in te duiken en op te halen wat ik hiervan nog wist. Mijn vaardigheden heb ik ook zeker wel verbeterd. Ik begrijp nu veel meer van het animeren in CSS en dat je daar nog veel meer hele leuk dingen mee kan. Spesifiek in de les waarbij we gingen anumieren viel het me alles mee hoe ingewikeld het was en hoe lastig ik het vond. Zie <a href="https://codepen.io/DionneGomes/pen/yLpGmzg?editors=1100">Codepen Animaties</a>. Ik snap nu ook meer van positioneering met Display Grid en het goed toepassen van lettertypes in mijn website. Dat vond ik erg nuttig.
+  Ik vond het erg leuk om weer de HTML, CSS en JS in te duiken en op te halen wat ik hiervan nog wist. Mijn vaardigheden heb ik ook zeker wel verbeterd. Ik begrijp nu veel meer van het animeren in CSS en dat je daar nog veel meer hele leuk dingen mee kan. Specifiek in de les waarbij we gingen animeren viel het me alles mee hoe ingewikkeld het was en hoe lastig ik het vond.  Zie <a href="https://codepen.io/DionneGomes/pen/yLpGmzg?editors=1100">Codepen Animaties</a>. Ik snap nu ook meer van positionering met Display Grid en het goed toepassen van lettertypes in mijn website. Dat vond ik erg nuttig.
 
   ### Dit was lastig/Is niet gelukt:
   Het werken met Js blijf ik altijd even moeilijker vinden als ik hoop. Op de een of andere manier geeft de pagina de achtergronden goed weer als je ze wilt bekijken van laag naar hoog jaartal en verkeerd als je ze in een andere volgorde aanklikt. Hierdoor worden niet altijd de juiste achtergronden getoond bij het juiste karakter van Sonic.
 
-  Ook wilde ik graag een tweede animatie toevoegen aan de Ring als je er op geklikt had. Ik heb hiervoor van alles geprobeerd in JS en CSS met weinig succes helaas. Ik had het zo leuk gevonden als je bij een active state van de ring de ring zou kunnen laten opspringen en wegvagen zoals het ook gebeurdin de daadwerkelijke game.
+  Ook wilde ik graag een tweede animatie toevoegen aan de Ring als je erop geklikt had. Ik heb hiervoor van alles geprobeerd in JS en CSS met weinig succes helaas. Ik had het zo leuk gevonden als je bij een active state van de ring de ring zou kunnen laten opspringen en wegvagen zoals het ook gebeurt in de daadwerkelijke game.
 
 
 
