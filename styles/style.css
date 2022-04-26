@@ -29,30 +29,32 @@ body {
     width: 100vw;
     background-size: cover;
     background-repeat: no-repeat;
+    -bottom: 20em;
 }
 
+/*Clases met achtergrond afbeeldingen, gebruikt in js*/
 .body {
     background-image: url(../../VIDii/images/background.png);
 }
 
 .background1988 {
-    background-image: url(../../VIDii/images/backgrond1988.jpeg);
+    background-image: url(../../VIDii/images/backgrond1988.jpg);
 }
 
 .background1991 {
-    background-image: url(../../VIDii/images/backgrond1991.jpeg);
+    background-image: url(../../VIDii/images/backgrond1991.png);
 }
 
 .background1994 {
-    background-image: url(../../VIDii/images/backgrond1994.jpeg);
+    background-image: url(../../VIDii/images/backgrond1994.png);
 }
 
 .background1996 {
-    background-image: url(../../VIDii/images/backgrond1996.jpeg);
+    background-image: url(../../VIDii/images/backgrond1996.png);
 }
 
 .background1997 {
-    background-image: url(../../VIDii/images/backgrond1997.jpeg);
+    background-image: url(../../VIDii/images/backgrond1997.png);
 }
 
 .background1998 {
@@ -64,11 +66,11 @@ body {
 }
 
 .background2001 {
-    background-image: url(../../VIDii/images/backgrond2001.jpeg);
+    background-image: url(../../VIDii/images/backgrond2001.png);
 }
 
 .background2003 {
-    background-image: url(../../VIDii/images/backgrond2003.jpeg);
+    background-image: url(../../VIDii/images/Backgrond.jpeg);
 }
 
 .background2006 {
@@ -121,6 +123,7 @@ h1 {
     margin-top: 1.5em;
     line-height: 1.5em;
     text-align: center;
+    text-shadow: 3em;
 }
 
 p {
@@ -129,6 +132,7 @@ p {
     padding-right: 3em;
     margin-top: 0em;
     text-align: center;
+    text-shadow: 3em;
 }
 
 main > section:nth-of-type(1) {

@@ -33,10 +33,9 @@ Mijn startniveau is: Blauw
 
   ### Je ambitie:
   Aan deze technieken/punten wil ik werken:
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Ik wil graag mijn kennis van HTML, CSS en JS weer een beetje ophalen en verbeteren. In min voorafgaande jaren heb ik heel wat dingen geleerd die ik ondertussen een beetje vergeten ben dus na het volgen van dit vak hoop ik de basics weer te weten en meer.
+  - Ik wil me verbeteren in de stijling van CSS aangezien ik dat het leukste onderdeel vind om te doen, ik hou er van om wat moois op te leveren en dat zou tof zijn als ik dat ook wat beter met code kan.
+  - Ik wil meer leren van het coderen van animaties. Ik heb hiervoor verschillende vakken gevolgd die dingen deden met aniaties als motion design en heb gemerkt dat ik hier een passie voor heb. Dus om nog meer te leren van animaties en die dan omzetten in code zou ik heel tof vinden.
 
 </details>
 
