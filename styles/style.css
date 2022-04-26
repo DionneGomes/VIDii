@@ -1,23 +1,107 @@
-/* CSS Document */
+/* Verwijzing font */
+@font-face {
+    font-family: 'sonic';
+    src: url('../../VIDii/fonts/nisesegasonic-webfont.woff2') format('woff2'),
+        url('../../VIDii/fonts/nisesegasonic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 *,
 *::after,
 *::before {
     box-sizing: border-box;
 }
 
+/* Verwijzing kleuren */
+:root {
+    --color-text: white;
+    --color-ring-base: #FA9F1A;
+    --color-ring-shadow: #945F0C;
+    --color-ring-light: #FBCD38;
+}
+
 html,
 body {
     height: 100%;
     margin: 0;
-    font-family: "NiseSegaSonic";
-    background-image: url(../../VIDii/images/Backgrond.jpeg);
+    font-family: "sonic";
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.body {
+    background-image: url(../../VIDii/images/background.png);
+}
+
+.background1988 {
+    background-image: url(../../VIDii/images/backgrond1988.jpeg);
+}
+
+.background1991 {
+    background-image: url(../../VIDii/images/backgrond1991.jpeg);
+}
+
+.background1994 {
+    background-image: url(../../VIDii/images/backgrond1994.jpeg);
+}
+
+.background1996 {
+    background-image: url(../../VIDii/images/backgrond1996.jpeg);
+}
+
+.background1997 {
+    background-image: url(../../VIDii/images/backgrond1997.jpeg);
+}
+
+.background1998 {
+    background-image: url(../../VIDii/images/backgrond1998.jpeg);
+}
+
+.background1999 {
+    background-image: url(../../VIDii/images/backgrond1999.jpeg);
+}
+
+.background2001 {
+    background-image: url(../../VIDii/images/backgrond2001.jpeg);
+}
+
+.background2003 {
+    background-image: url(../../VIDii/images/backgrond2003.jpeg);
+}
+
+.background2006 {
+    background-image: url(../../VIDii/images/backgrond2006.jpeg);
+}
+
+.background2008 {
+    background-image: url(../../VIDii/images/backgrond2008.jpeg);
+}
+
+.background2010 {
+    background-image: url(../../VIDii/images/backgrond2010.jpeg);
+}
+
+.background2011 {
+    background-image: url(../../VIDii/images/backgrond2011.jpeg);
+}
+
+.background2014 {
+    background-image: url(../../VIDii/images/backgrond2014.jpeg);
+}
+
+.background2016 {
+    background-image: url(../../VIDii/images/backgrond2016.jpeg);
+}
+
+.background2022 {
+    background-image: url(../../VIDii/images/backgrond2022.jpeg);
 }
 
 button:not([disabled]) {
     cursor: pointer;
 }
-
-/* jouw CSS vanaf hier */
 
 header {
     display: grid;
@@ -29,19 +113,28 @@ main {
 }
 
 h1 {
-    color: white;
-    padding-left: 1em;
+    color: var(--color-text);
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-bottom: 0em;
+    margin-bottom: 0em;
+    margin-top: 1.5em;
+    line-height: 1.5em;
+    text-align: center;
 }
 
 p {
-    color: white;
-    padding-left: 2em;
+    color: var(--color-text);
+    padding-left: 3em;
+    padding-right: 3em;
+    margin-top: 0em;
+    text-align: center;
 }
 
 main > section:nth-of-type(1) {
     display: grid;
     grid-template-columns: 680px auto;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 ol {
@@ -57,17 +150,18 @@ li {
     width: 150px;
     height: 150px;
     border-style: solid;
-    border-color: #FA9F1A;
+    border-color: var(--color-ring-base);
     border-width: 1.2em;
     border-radius: 50% 50% 50% 50%;
-    box-shadow: .2em .2em .25em #945F0C,
-        inset .2em .2em .25em #945F0C;
+    box-shadow: .2em .2em .25em var(--color-ring-shadow),
+        inset .2em .2em .25em var(--color-ring-shadow);
     display: grid;
     justify-content: center;
     align-content: center;
     position: relative;
 }
 
+/* extra element voor de stijling van de ringen */
 li:after {
     content: "";
     position: absolute;
@@ -80,18 +174,55 @@ li:after {
     left: 50%;
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
-    box-shadow: -.5em -.5em .25em #FBCD38,
-        .5em .5em .25em #FBCD38;
+    box-shadow: -.5em -.5em .25em var(--color-ring-light),
+        .5em .5em .25em var(--color-ring-light);
 }
 
-a {
-    color: #FA9F1A;
+/* Animatie ringen */
+@keyframes ring {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    25% {
+        transform: rotateY(180deg);
+    }
+
+    50% {
+        transform: rotateY(360deg);
+    }
+
+    75% {
+        transform: rotateY(180deg);
+    }
+
+    100% {
+        transform: rotateY(0deg);
+    }
+}
+
+li:hover {
+    animation-name: ring;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    cursor: pointer;
+}
+
+button {
+    color: var(--color-ring-base);
+    background-color: transparent;
+    font-family: "sonic";
     font-size: 1.75em;
-    text-shadow: 2px 2px .1em #945F0C,
-        -2px -2px .1em #FBCD38;
+    text-shadow: 2px 2px .1em var(--color-ring-shadow),
+        -2px -2px .1em var(--color-ring-light);
     text-decoration: none;
+    border: none;
+    padding: none;
 }
 
 img {
-    height: 50em;
+    height: 600px;
+    padding-top: 8em;
+    padding-left: 3em;
 }
