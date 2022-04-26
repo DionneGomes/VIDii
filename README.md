@@ -139,7 +139,7 @@ Mijn startniveau is: Blauw
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
 
   Zie hier het feedback formulier die mijn klasgenoot heeft ingevuld:
-  <img src="readme-images/Feedback2_Dionne.png" width="375px" alt="Feedback formulier">
+  <img src="readme-images/FeedbackDionne2.png" width="375px" alt="Feedback formulier">
 
   ### Bevinding 1:
   Op het feedback formulier wordt aangegeven dat de jaartallen een stukje uit steken onder het scherm waar de achtergrond afbeelding stopt.
