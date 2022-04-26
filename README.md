@@ -48,23 +48,38 @@ Mijn startniveau is: Blauw
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
 
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Het idee past heel goed bij het onderwerp. De onderdelen passen allemaal bij de stijl van Sonic. Ik vind de muntjes een creatieve manier om de jaartallen weer te geven.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Is niet nodig. Houden zo.
 
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Hoe geef je de achtergrond weer? In oude pixel-vorm of realistische moderne vorm?
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Ik ben van plan de achtergrinden zo weer te geven dat ze bij dat jaartal en het karakter passen. Je krijgt dan bij de nieuwste versies van sonic een realistische/3d achtergrond en bij de pixelige karakters een pixelige achtergrond.
 
 
 
   ### Bevinding 3:
-  ...
+  Animatie verwerken in de muntjes door middel van hover? Of in rollende Sonic?
+
+  #### oplossing:
+  Het lijkt me tof om de muntjes een horizontaal draaiende animatie mee te geven aangezien ze dat ook doen in de daadwerkelijke game en sonic zelf springt en draait ook veel in de game dus het lijkt me leuk om dat ook in get ontwerp te verwerken.
+
+  ### Bevinding 4:
+  Ga je zelf de sonics illustreren of maak je gebruik van afbeeldingen?
+
+  #### oplossing:
+  Ik wil proberen de muntjes zelf te gaan illustreren in HTML en CSS zodat ik ook deze vaardigheid onder de knie krijg. Verder gebruik ik bestaande afbeeldingen van de Sonic personages aangezien die per jaartal en game hun eigen vormgeving hebben gekregen en ik juist duidelijk wil laten zien.
+
+  ### Bevinding 5:
+  Misschien onder of boven Sonic de specifieke naam en het jaartal laten zien?
+
+  #### oplossing:
+  Een beetje feedformward geven is inderdaad een goed idee! Ik wil so wie so het jaartal in de ringen laten weergeven en door de animaties laten zien welke je hebt geselecteerd maar wie weet kan ik daar nog meer mee.
 
 </details>
 
@@ -75,6 +90,9 @@ Mijn startniveau is: Blauw
 
 <details>
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
+
+  Zie hier het feedback formulier die mijn klasgenoot heeft ingevuld:
+  <img src="readme-images/Feedback1_Dionne.png" width="375px" alt="Feedback formulier">
 
   ### Bevinding 1:
   Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).

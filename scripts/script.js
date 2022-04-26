@@ -25,98 +25,98 @@ var sonicImg = document.querySelector('#sonicRoll');
 
 function sonic1988() {
     console.log('sonic 1988');
-    bodyElement.classList.remove('backgrond2022', 'backgrond1991', 'backgrond1994', 'backgrond1996', 'backgrond1997', 'backgrond1998', 'backgrond1999', 'backgrond2001', 'backgrond2003', 'backgrond2006', 'backgrond2008', 'backgrond2010', 'backgrond2011', 'backgrond2014', 'backgrond2016', 'body');
     bodyElement.classList.add('background1988');
+    bodyElement.classList.remove('backgrond2022', 'backgrond1991', 'backgrond1994', 'backgrond1996', 'backgrond1997', 'backgrond1998', 'backgrond1999', 'backgrond2001', 'backgrond2003', 'backgrond2006', 'backgrond2008', 'backgrond2010', 'backgrond2011', 'backgrond2014', 'backgrond2016', 'body');
     sonicImg.src = '../VIDii/images/sonic1988.png';
 }
 
 function sonic1991() {
-    bodyElement.classList.remove('backgrond1988', 'backgrond2022', 'backgrond1994', 'backgrond1996', 'backgrond1997', 'backgrond1998', 'backgrond1999', 'backgrond2001', 'backgrond2003', 'backgrond2006', 'backgrond2008', 'backgrond2010', 'backgrond2011', 'backgrond2014', 'backgrond2016', 'body');
     bodyElement.classList.add('background1991');
+    bodyElement.classList.remove('backgrond1988', 'backgrond2022', 'backgrond1994', 'backgrond1996', 'backgrond1997', 'backgrond1998', 'backgrond1999', 'backgrond2001', 'backgrond2003', 'backgrond2006', 'backgrond2008', 'backgrond2010', 'backgrond2011', 'backgrond2014', 'backgrond2016', 'body');
     sonicImg.src = '../VIDii/images/sonic1991.png';
 }
 
 function sonic1994() {
-    bodyElement.classList.remove('backgrond1988', 'backgrond1991', 'backgrond2022', 'backgrond1996', 'backgrond1997', 'backgrond1998', 'backgrond1999', 'backgrond2001', 'backgrond2003', 'backgrond2006', 'backgrond2008', 'backgrond2010', 'backgrond2011', 'backgrond2014', 'backgrond2016', 'body');
     bodyElement.classList.add('background1994');
+    bodyElement.classList.remove('backgrond1988', 'backgrond1991', 'backgrond2022', 'backgrond1996', 'backgrond1997', 'backgrond1998', 'backgrond1999', 'backgrond2001', 'backgrond2003', 'backgrond2006', 'backgrond2008', 'backgrond2010', 'backgrond2011', 'backgrond2014', 'backgrond2016', 'body');
     sonicImg.src = '../VIDii/images/sonic1994.png';
 }
 
 function sonic1996() {
-    bodyElement.classList.remove('backgrond1988', 'backgrond1991', 'backgrond1994', 'backgrond2022', 'backgrond1997', 'backgrond1998', 'backgrond1999', 'backgrond2001', 'backgrond2003', 'backgrond2006', 'backgrond2008', 'backgrond2010', 'backgrond2011', 'backgrond2014', 'backgrond2016', 'body');
     bodyElement.classList.add('background1996');
+    bodyElement.classList.remove('backgrond1988', 'backgrond1991', 'backgrond1994', 'backgrond2022', 'backgrond1997', 'backgrond1998', 'backgrond1999', 'backgrond2001', 'backgrond2003', 'backgrond2006', 'backgrond2008', 'backgrond2010', 'backgrond2011', 'backgrond2014', 'backgrond2016', 'body');
     sonicImg.src = '../VIDii/images/sonic1996.png';
 }
 
 function sonic1997() {
-    bodyElement.classList.remove('backgrond1988', 'backgrond1991', 'backgrond1994', 'backgrond1996', 'backgrond2022', 'backgrond1998', 'backgrond1999', 'backgrond2001', 'backgrond2003', 'backgrond2006', 'backgrond2008', 'backgrond2010', 'backgrond2011', 'backgrond2014', 'backgrond2016', 'body');
     bodyElement.classList.add('background1997');
+    bodyElement.classList.remove('backgrond1988', 'backgrond1991', 'backgrond1994', 'backgrond1996', 'backgrond2022', 'backgrond1998', 'backgrond1999', 'backgrond2001', 'backgrond2003', 'backgrond2006', 'backgrond2008', 'backgrond2010', 'backgrond2011', 'backgrond2014', 'backgrond2016', 'body');
     sonicImg.src = '../VIDii/images/sonic1997.png';
 }
 
 function sonic1998() {
-    bodyElement.classList.remove('backgrond1988', 'backgrond1991', 'backgrond1994', 'backgrond1996', 'backgrond1997', 'backgrond2022', 'backgrond1999', 'backgrond2001', 'backgrond2003', 'backgrond2006', 'backgrond2008', 'backgrond2010', 'backgrond2011', 'backgrond2014', 'backgrond2016', 'body');
     bodyElement.classList.add('background1998');
+    bodyElement.classList.remove('backgrond1988', 'backgrond1991', 'backgrond1994', 'backgrond1996', 'backgrond1997', 'backgrond2022', 'backgrond1999', 'backgrond2001', 'backgrond2003', 'backgrond2006', 'backgrond2008', 'backgrond2010', 'backgrond2011', 'backgrond2014', 'backgrond2016', 'body');
     sonicImg.src = '../VIDii/images/sonic1998.png';
 }
 
 function sonic1999() {
-    bodyElement.classList.remove('backgrond1988', 'backgrond1991', 'backgrond1994', 'backgrond1996', 'backgrond1997', 'backgrond1998', 'backgrond2022', 'backgrond2001', 'backgrond2003', 'backgrond2006', 'backgrond2008', 'backgrond2010', 'backgrond2011', 'backgrond2014', 'backgrond2016', 'body');
     bodyElement.classList.add('background1999');
+    bodyElement.classList.remove('backgrond1988', 'backgrond1991', 'backgrond1994', 'backgrond1996', 'backgrond1997', 'backgrond1998', 'backgrond2022', 'backgrond2001', 'backgrond2003', 'backgrond2006', 'backgrond2008', 'backgrond2010', 'backgrond2011', 'backgrond2014', 'backgrond2016', 'body');
     sonicImg.src = '../VIDii/images/sonic1999.png';
 }
 
 function sonic2001() {
-    bodyElement.classList.remove('backgrond1988', 'backgrond1991', 'backgrond1994', 'backgrond1996', 'backgrond1997', 'backgrond1998', 'backgrond1999', 'backgrond2022', 'backgrond2003', 'backgrond2006', 'backgrond2008', 'backgrond2010', 'backgrond2011', 'backgrond2014', 'backgrond2016', 'body');
     bodyElement.classList.add('background2001');
+    bodyElement.classList.remove('backgrond1988', 'backgrond1991', 'backgrond1994', 'backgrond1996', 'backgrond1997', 'backgrond1998', 'backgrond1999', 'backgrond2022', 'backgrond2003', 'backgrond2006', 'backgrond2008', 'backgrond2010', 'backgrond2011', 'backgrond2014', 'backgrond2016', 'body');
     sonicImg.src = '../VIDii/images/sonic2001.png';
 }
 
 function sonic2003() {
-    bodyElement.classList.remove('backgrond1988', 'backgrond1991', 'backgrond1994', 'backgrond1996', 'backgrond1997', 'backgrond1998', 'backgrond1999', 'backgrond2001', 'backgrond2022', 'backgrond2006', 'backgrond2008', 'backgrond2010', 'backgrond2011', 'backgrond2014', 'backgrond2016', 'body');
     bodyElement.classList.add('background2003');
+    bodyElement.classList.remove('backgrond1988', 'backgrond1991', 'backgrond1994', 'backgrond1996', 'backgrond1997', 'backgrond1998', 'backgrond1999', 'backgrond2001', 'backgrond2022', 'backgrond2006', 'backgrond2008', 'backgrond2010', 'backgrond2011', 'backgrond2014', 'backgrond2016', 'body');
     sonicImg.src = '../VIDii/images/sonic2003.png';
 }
 
 function sonic2006() {
-    bodyElement.classList.remove('backgrond1988', 'backgrond1991', 'backgrond1994', 'backgrond1996', 'backgrond1997', 'backgrond1998', 'backgrond1999', 'backgrond2001', 'backgrond2003', 'backgrond2022', 'backgrond2008', 'backgrond2010', 'backgrond2011', 'backgrond2014', 'backgrond2016', 'body');
     bodyElement.classList.add('background2006');
+    bodyElement.classList.remove('backgrond1988', 'backgrond1991', 'backgrond1994', 'backgrond1996', 'backgrond1997', 'backgrond1998', 'backgrond1999', 'backgrond2001', 'backgrond2003', 'backgrond2022', 'backgrond2008', 'backgrond2010', 'backgrond2011', 'backgrond2014', 'backgrond2016', 'body');
     sonicImg.src = '../VIDii/images/sonic2006.png';
 }
 
 function sonic2008() {
-    bodyElement.classList.remove('backgrond1988', 'backgrond1991', 'backgrond1994', 'backgrond1996', 'backgrond1997', 'backgrond1998', 'backgrond1999', 'backgrond2001', 'backgrond2003', 'backgrond2006', 'backgrond2022', 'backgrond2010', 'backgrond2011', 'backgrond2014', 'backgrond2016', 'body');
     bodyElement.classList.add('background2008');
+    bodyElement.classList.remove('backgrond1988', 'backgrond1991', 'backgrond1994', 'backgrond1996', 'backgrond1997', 'backgrond1998', 'backgrond1999', 'backgrond2001', 'backgrond2003', 'backgrond2006', 'backgrond2022', 'backgrond2010', 'backgrond2011', 'backgrond2014', 'backgrond2016', 'body');
     sonicImg.src = '../VIDii/images/sonic2008.png';
 }
 
 function sonic2010() {
-    bodyElement.classList.remove('backgrond1988', 'backgrond1991', 'backgrond1994', 'backgrond1996', 'backgrond1997', 'backgrond1998', 'backgrond1999', 'backgrond2001', 'backgrond2003', 'backgrond2006', 'backgrond2008', 'backgrond2022', 'backgrond2011', 'backgrond2014', 'backgrond2016', 'body');
     bodyElement.classList.add('background2010');
+    bodyElement.classList.remove('backgrond1988', 'backgrond1991', 'backgrond1994', 'backgrond1996', 'backgrond1997', 'backgrond1998', 'backgrond1999', 'backgrond2001', 'backgrond2003', 'backgrond2006', 'backgrond2008', 'backgrond2022', 'backgrond2011', 'backgrond2014', 'backgrond2016', 'body');
     sonicImg.src = '../VIDii/images/sonic2010.png';
 }
 
 function sonic2011() {
-    bodyElement.classList.remove('backgrond1988', 'backgrond1991', 'backgrond1994', 'backgrond1996', 'backgrond1997', 'backgrond1998', 'backgrond1999', 'backgrond2001', 'backgrond2003', 'backgrond2006', 'backgrond2008', 'backgrond2010', 'backgrond2022', 'backgrond2014', 'backgrond2016', 'body');
     bodyElement.classList.add('background2011');
+    bodyElement.classList.remove('backgrond1988', 'backgrond1991', 'backgrond1994', 'backgrond1996', 'backgrond1997', 'backgrond1998', 'backgrond1999', 'backgrond2001', 'backgrond2003', 'backgrond2006', 'backgrond2008', 'backgrond2010', 'backgrond2022', 'backgrond2014', 'backgrond2016', 'body');
     sonicImg.src = '../VIDii/images/sonic2011.png';
 }
 
 function sonic2014() {
-    bodyElement.classList.remove('backgrond1988', 'backgrond1991', 'backgrond1994', 'backgrond1996', 'backgrond1997', 'backgrond1998', 'backgrond1999', 'backgrond2001', 'backgrond2003', 'backgrond2006', 'backgrond2008', 'backgrond2010', 'backgrond2011', 'backgrond2022', 'backgrond2016', 'body');
     bodyElement.classList.add('background2014');
+    bodyElement.classList.remove('backgrond1988', 'backgrond1991', 'backgrond1994', 'backgrond1996', 'backgrond1997', 'backgrond1998', 'backgrond1999', 'backgrond2001', 'backgrond2003', 'backgrond2006', 'backgrond2008', 'backgrond2010', 'backgrond2011', 'backgrond2022', 'backgrond2016', 'body');
     sonicImg.src = '../VIDii/images/sonic2014.png';
 }
 
 function sonic2016() {
-    bodyElement.classList.remove('backgrond1988', 'backgrond1991', 'backgrond1994', 'backgrond1996', 'backgrond1997', 'backgrond1998', 'backgrond1999', 'backgrond2001', 'backgrond2003', 'backgrond2006', 'backgrond2008', 'backgrond2010', 'backgrond2011', 'backgrond2014', 'backgrond2022', 'body');
     bodyElement.classList.add('background2016');
+    bodyElement.classList.remove('backgrond1988', 'backgrond1991', 'backgrond1994', 'backgrond1996', 'backgrond1997', 'backgrond1998', 'backgrond1999', 'backgrond2001', 'backgrond2003', 'backgrond2006', 'backgrond2008', 'backgrond2010', 'backgrond2011', 'backgrond2014', 'backgrond2022', 'body');
     sonicImg.src = '../VIDii/images/sonic2016.png';
 }
 
 function sonic2022() {
-    bodyElement.classList.remove('backgrond1988', 'backgrond1991', 'backgrond1994', 'backgrond1996', 'backgrond1997', 'backgrond1998', 'backgrond1999', 'backgrond2001', 'backgrond2003', 'backgrond2006', 'backgrond2008', 'backgrond2010', 'backgrond2011', 'backgrond2014', 'backgrond2016', 'body');
     bodyElement.classList.add('background2022');
+    bodyElement.classList.remove('backgrond1988', 'backgrond1991', 'backgrond1994', 'backgrond1996', 'backgrond1997', 'backgrond1998', 'backgrond1999', 'backgrond2001', 'backgrond2003', 'backgrond2006', 'backgrond2008', 'backgrond2010', 'backgrond2011', 'backgrond2014', 'backgrond2016', 'body');
     sonicImg.src = '../VIDii/images/sonic2022.png';
 }
 

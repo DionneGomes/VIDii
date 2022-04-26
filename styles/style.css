@@ -1,3 +1,5 @@
+/* Hulpbronnen: https://www.w3schools.com/*/
+
 /* Verwijzing font */
 @font-face {
     font-family: 'sonic';
@@ -23,13 +25,10 @@
 
 html,
 body {
-    height: 100%;
     margin: 0;
     font-family: "sonic";
-    width: 100vw;
     background-size: cover;
     background-repeat: no-repeat;
-    -bottom: 20em;
 }
 
 /*Clases met achtergrond afbeeldingen, gebruikt in js*/
@@ -108,6 +107,7 @@ button:not([disabled]) {
 header {
     display: grid;
     justify-content: center;
+    text-shadow: 2px 2px 2px black;
 }
 
 main {
@@ -115,24 +115,26 @@ main {
 }
 
 h1 {
-    color: var(--color-text);
     padding-left: 1.5em;
     padding-right: 1.5em;
     padding-bottom: 0em;
     margin-bottom: 0em;
     margin-top: 1.5em;
-    line-height: 1.5em;
-    text-align: center;
+
+    color: var(--color-text);
     text-shadow: 3em;
+    text-align: center;
+    line-height: 1.5em;
 }
 
 p {
-    color: var(--color-text);
     padding-left: 3em;
     padding-right: 3em;
     margin-top: 0em;
-    text-align: center;
+
+    color: var(--color-text);
     text-shadow: 3em;
+    text-align: center;
 }
 
 main > section:nth-of-type(1) {
@@ -145,20 +147,24 @@ ol {
     display: grid;
     grid-template-columns: 170px 170px 170px 170px;
     padding-left: 1em;
+    padding-bottom: 2em;
 }
 
 li {
     list-style: none;
+
     margin: 1em;
     padding: 1em;
     width: 150px;
     height: 150px;
+
     border-style: solid;
     border-color: var(--color-ring-base);
     border-width: 1.2em;
     border-radius: 50% 50% 50% 50%;
     box-shadow: .2em .2em .25em var(--color-ring-shadow),
         inset .2em .2em .25em var(--color-ring-shadow);
+
     display: grid;
     justify-content: center;
     align-content: center;
@@ -171,10 +177,12 @@ li:after {
     position: absolute;
     width: 100%;
     height: 100%;
+
     border-style: solid;
     border-color: #00000000;
     border-width: 1.2em;
     border-radius: 50% 50% 50% 50%;
+
     left: 50%;
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
@@ -213,14 +221,45 @@ li:hover {
     cursor: pointer;
 }
 
+/* 2de animatie ringen die ik niet aan de gang kreeg:
+
+@keyframes jumpCoin {
+    0% {
+        transform: translateY(0px), opacity: 1;
+    }
+
+    50% {
+        transform: translateY(-70px), opacity: .5;
+    }
+
+    100% {
+        transform: translateY(0px), opacity: 0;
+    }
+}
+
+li button:active {
+    animation-name: jumpCoin;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+} */
+
+li button:focus {
+    height: 3.2em;
+    border-width: 2.2em;
+    border-radius: 50% 50% 50% 50%;
+}
+
 button {
     color: var(--color-ring-base);
     background-color: transparent;
+
     font-family: "sonic";
     font-size: 1.75em;
     text-shadow: 2px 2px .1em var(--color-ring-shadow),
         -2px -2px .1em var(--color-ring-light);
     text-decoration: none;
+
     border: none;
     padding: none;
 }
@@ -229,4 +268,35 @@ img {
     height: 600px;
     padding-top: 8em;
     padding-left: 3em;
+}
+
+/* Animatie sonic */
+@keyframes roll {
+    0% {
+        transform: translateY(0em) rotate(0deg);
+    }
+
+    25% {
+        transform: translateY(-10em) rotate(0deg);
+    }
+
+    50% {
+        transform: translateY(-10em) rotate(180deg);
+    }
+
+    75% {
+        transform: translateY(-10em) rotate(360deg);
+    }
+
+    100% {
+        transform: translateY(0em) rotate(360deg);
+    }
+}
+
+img:hover {
+    animation-name: roll;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    cursor: pointer;
 }
