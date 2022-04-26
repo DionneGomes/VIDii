@@ -69,11 +69,15 @@ Mijn startniveau is: Blauw
   #### oplossing:
   Het lijkt me tof om de muntjes een horizontaal draaiende animatie mee te geven aangezien ze dat ook doen in de daadwerkelijke game en sonic zelf springt en draait ook veel in de game dus het lijkt me leuk om dat ook in get ontwerp te verwerken.
 
+
+
   ### Bevinding 4:
   Ga je zelf de sonics illustreren of maak je gebruik van afbeeldingen?
 
   #### oplossing:
   Ik wil proberen de muntjes zelf te gaan illustreren in HTML en CSS zodat ik ook deze vaardigheid onder de knie krijg. Verder gebruik ik bestaande afbeeldingen van de Sonic personages aangezien die per jaartal en game hun eigen vormgeving hebben gekregen en ik juist duidelijk wil laten zien.
+
+
 
   ### Bevinding 5:
   Misschien onder of boven Sonic de specifieke naam en het jaartal laten zien?
@@ -95,23 +99,35 @@ Mijn startniveau is: Blauw
   <img src="readme-images/Feedback1_Dionne.png" width="375px" alt="Feedback formulier">
 
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Als feedback kreeg ik te horen dat de indeling van Sonic ten opzichte van de rest van de website nog niet helemaal optimaal was.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
+  Dit kan ik oplossen door de afbeelding van Sonic naast de munten te positioneren met een Display Grid.
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Op het feedback formulier is aangegeven dat mijn teksten nog niet voldoende contrast hebben ten opzichte van mijn achtergrond.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
-
+  Met de tool "https://contrast-ratio.com/" heb ik kunnen checken of mijn contrasten goed genoeg waren en als hieruit bleek dat de contrast ratio niet voldoende was heb ik de achtergrond afbeelding aangepast.
 
   ### Bevinding 3:
-  ...
+  Op het feedback formulier is aangegeven dat mijn fonts nog niet correct getoond worden als de pagina imn Github wordt getoont.
+
+  #### oplossing:
+  Deze oplossing wordt ons uitgelecht in de les van dinsdag 26 april. Ook is deze les op dlo te vinden en hieruit blijkt dat er drie verschillende manieren zijn om het op te lossen. Ik heb voor de @font-face menier gekozen.
+
+  ### Bevinding 4:
+  Op het feedback formulier is aangegeven dat de states van de interactieve elementen niet passen bij het ontwerp.
+
+  #### oplossing:
+  De states appart een opmaak geven, bijvoorbeeld een actieve state in een ring inplaats van het default vierkantje.
+
+  ### Bevinding 5:
+  Op het feedback formulier is aangegeven dat er in de CSS geen commentaar is opgenomen om de structuur duidelijk te maken en om uitleg te geven.
+
+  #### oplossing:
+  Dit kan ik gemakkelijk oplossen door aan te geven wat de functie is van de stukken code die ik geschreven heb met /*...*/ .
 
 </details>
 
@@ -122,24 +138,50 @@ Mijn startniveau is: Blauw
 <details>
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
 
+  Zie hier het feedback formulier die mijn klasgenoot heeft ingevuld:
+  <img src="readme-images/Feedback2_Dionne.png" width="375px" alt="Feedback formulier">
+
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Op het feedback formulier wordt aangegeven dat de jaartallen een stukje uit steken onder het scherm waar de achtergrond afbeelding stopt.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Dit heb ik opgelost door de "background-size" op "cover" te zetten en de "ol" (het gedeelte onde de ringen dus) een "padding" aan de onderkant te geven.
 
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Op het feedback formulier wordt aangegeven dat ik nogesteeds geen commentaar verwerkt heb na de vorrige feedback.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
+  Dit keer wel echt commentaar toevoegen in de css met /*...*/ .
 
 
   ### Bevinding 3:
-  ...
+  Op het feedback formulier wordt aangegeven dat ik geen bronnen heb opgenomen.
+
+  #### oplossing:
+  Veel bronnen heb ik niet gebruikt, af en toe alleen even gespiekt op "https://www.w3schools.com/" om te kijken hoe het ook al weer zat. Deze website zal ik in mijn code toevoegen.
+
+
+  ### Bevinding 4:
+  Op het feedback formulier wordt aangegeven dat de CSS properties niet binnen een selector staan in dezelfde volgorde.
+
+  #### oplossing:
+  Dit kan ik gemakkelijk oplossen door de structuur van mijn code wat netter te maken en wat meer te groepeeren. Dus toepassen wat we in de les van donderdag behandeld hebben.
+
+
+
+  ### Bevinding 5:
+  Op het feedback formulier wordt aangegeven dat er geen CSS custom properties worden gebruikt voor alle kleurtjes en verloopjes.
+
+  #### oplossing:
+  Dit heb ik direcht toegevoegd doormiddel van:
+  :root {
+    --color-text: white;
+    --color-ring-base: #FA9F1A;
+    --color-ring-shadow: #945F0C;
+    --color-ring-light: #FBCD38;
+}
 
 </details>
 
@@ -152,20 +194,16 @@ Mijn startniveau is: Blauw
   <summary>Mijn eindresultaat & persoonlijke ontwikkeling</summary>
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="final ontwerp">
+  <img src="readme-images/FinalDesign.png" width="375px" alt="final ontwerp">
 
 
   ### Dit ging goed/Heb ik geleerd:
-  Korte omschrijving met plaatje(s)
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
-
+  Ik vond het erg leuk om weer de HTML, CSS en JS in te duiken en op te halen wat ik hiervan nog wist. Mijn vaardigheden heb ik ook zeker wel verbeterd. Ik begrijp nu veel meer van het animeren in CSS en dat je daar nog veel meer hele leuk dingen mee kan. Spesifiek in de les waarbij we gingen anumieren viel het me alles mee hoe ingewikeld het was en hoe lastig ik het vond. Zie <a href="https://codepen.io/DionneGomes/pen/yLpGmzg?editors=1100">Codepen Animaties</a>. Ik snap nu ook meer van positioneering met Display Grid en het goed toepassen van lettertypes in mijn website. Dat vond ik erg nuttig.
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatje(s)
+  Het werken met Js blijf ik altijd even moeilijker vinden als ik hoop. Op de een of andere manier geeft de pagina de achtergronden goed weer als je ze wilt bekijken van laag naar hoog jaartal en verkeerd als je ze in een andere volgorde aanklikt. Hierdoor worden niet altijd de juiste achtergronden getoond bij het juiste karakter van Sonic.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
-</details>
+  Ook wilde ik graag een tweede animatie toevoegen aan de Ring als je er op geklikt had. Ik heb hiervoor van alles geprobeerd in JS en CSS met weinig succes helaas. Ik had het zo leuk gevonden als je bij een active state van de ring de ring zou kunnen laten opspringen en wegvagen zoals het ook gebeurdin de daadwerkelijke game.
 
 
 
@@ -176,10 +214,12 @@ Mijn startniveau is: Blauw
 <details open>
 <summary>continu bijhouden terwijl je werkt</summary>
 
-Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
-
-1. bron 1
-2. bron 2
-3. ...
+1. https://www.w3schools.com/html/default.asp : Voor het opzoeken en na gaan hoe ik een bepaald html onderdeel ook al weer neer moest zetten.
+2. https://www.w3schools.com/css/default.asp : Voor het opzoeken en na gaan hoe ik een bepaald css onderdeel ook al weer neer moest zetten.
+3. https://codepen.io/shooft/pen/VwyqEMv?editors=1100 : Afkijken animatie
+4. https://codepen.io/shooft/pen/XWVeoEx : Akijken states
+5. https://css-tricks.com/snippets/css/a-guide-to-flexbox/ : Flexbox
+6. https://www.fontsquirrel.com/tools/webfont-generator: Font Squirrel - font generator
+7. https://contrast-ratio.com/ Contrast-ratio-checker Lea Verou
 
 </details>
