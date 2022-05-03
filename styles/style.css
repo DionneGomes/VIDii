@@ -21,6 +21,8 @@
     --color-ring-base: #FA9F1A;
     --color-ring-shadow: #945F0C;
     --color-ring-light: #FBCD38;
+    --color-ring-dark: #EC8312;
+    --color-sonic: #1A29FC;
 }
 
 html,
@@ -37,67 +39,67 @@ body {
 }
 
 .background1988 {
-    background-image: url(../../VIDii/images/backgrond1988.jpg);
+    background-image: url(../../VIDii/images/background1988.png);
 }
 
 .background1991 {
-    background-image: url(../../VIDii/images/backgrond1991.png);
+    background-image: url(../../VIDii/images/background1991.png);
 }
 
 .background1994 {
-    background-image: url(../../VIDii/images/backgrond1994.png);
+    background-image: url(../../VIDii/images/background1994.png);
 }
 
 .background1996 {
-    background-image: url(../../VIDii/images/backgrond1996.png);
+    background-image: url(../../VIDii/images/background1996.png);
 }
 
 .background1997 {
-    background-image: url(../../VIDii/images/backgrond1997.png);
+    background-image: url(../../VIDii/images/background1997.png);
 }
 
 .background1998 {
-    background-image: url(../../VIDii/images/backgrond1998.jpeg);
+    background-image: url(../../VIDii/images/background1998.png);
 }
 
 .background1999 {
-    background-image: url(../../VIDii/images/backgrond1999.jpeg);
+    background-image: url(../../VIDii/images/background1999.png);
 }
 
 .background2001 {
-    background-image: url(../../VIDii/images/backgrond2001.png);
+    background-image: url(../../VIDii/images/background2001.png);
 }
 
 .background2003 {
-    background-image: url(../../VIDii/images/Backgrond.jpeg);
+    background-image: url(../../VIDii/images/background.jpeg);
 }
 
 .background2006 {
-    background-image: url(../../VIDii/images/backgrond2006.jpeg);
+    background-image: url(../../VIDii/images/background2006.png);
 }
 
 .background2008 {
-    background-image: url(../../VIDii/images/backgrond2008.jpeg);
+    background-image: url(../../VIDii/images/background2008.png);
 }
 
 .background2010 {
-    background-image: url(../../VIDii/images/backgrond2010.jpeg);
+    background-image: url(../../VIDii/images/background2010.png);
 }
 
 .background2011 {
-    background-image: url(../../VIDii/images/backgrond2011.jpeg);
+    background-image: url(../../VIDii/images/background2011.png);
 }
 
 .background2014 {
-    background-image: url(../../VIDii/images/backgrond2014.jpeg);
+    background-image: url(../../VIDii/images/background2014.png);
 }
 
 .background2016 {
-    background-image: url(../../VIDii/images/backgrond2016.jpeg);
+    background-image: url(../../VIDii/images/background2016.png);
 }
 
 .background2022 {
-    background-image: url(../../VIDii/images/backgrond2022.jpeg);
+    background-image: url(../../VIDii/images/background2022.png);
 }
 
 button:not([disabled]) {
@@ -154,40 +156,14 @@ li {
     list-style: none;
 
     margin: 1em;
-    padding: 1em;
     width: 150px;
     height: 150px;
-
-    border-style: solid;
-    border-color: var(--color-ring-base);
-    border-width: 1.2em;
-    border-radius: 50% 50% 50% 50%;
-    box-shadow: .2em .2em .25em var(--color-ring-shadow),
-        inset .2em .2em .25em var(--color-ring-shadow);
 
     display: grid;
     justify-content: center;
     align-content: center;
     position: relative;
-}
-
-/* extra element voor de stijling van de ringen */
-li:after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-
-    border-style: solid;
-    border-color: #00000000;
-    border-width: 1.2em;
-    border-radius: 50% 50% 50% 50%;
-
-    left: 50%;
-    top: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    box-shadow: -.5em -.5em .25em var(--color-ring-light),
-        .5em .5em .25em var(--color-ring-light);
+    perspective: 20em;
 }
 
 /* Animatie ringen */
@@ -213,41 +189,12 @@ li:after {
     }
 }
 
-li:hover {
+li:hover button {
     animation-name: ring;
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     cursor: pointer;
-}
-
-/* 2de animatie ringen die ik niet aan de gang kreeg:
-
-@keyframes jumpCoin {
-    0% {
-        transform: translateY(0px), opacity: 1;
-    }
-
-    50% {
-        transform: translateY(-70px), opacity: .5;
-    }
-
-    100% {
-        transform: translateY(0px), opacity: 0;
-    }
-}
-
-li button:active {
-    animation-name: jumpCoin;
-    animation-duration: 2s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-} */
-
-li button:focus {
-    height: 3.2em;
-    border-width: 2.2em;
-    border-radius: 50% 50% 50% 50%;
 }
 
 button {
@@ -260,8 +207,52 @@ button {
         -2px -2px .1em var(--color-ring-light);
     text-decoration: none;
 
-    border: none;
-    padding: none;
+
+    margin: 1em;
+    padding: 1em;
+    width: 150px;
+    height: 150px;
+
+    border-style: solid;
+    border-color: var(--color-ring-base);
+    border-width: .7em;
+    border-radius: 50% 50% 50% 50%;
+    box-shadow: .2em .2em .25em var(--color-ring-shadow),
+        inset .2em .2em .25em var(--color-ring-shadow);
+
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    perspective: 20em;
+}
+
+button:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    border-style: solid;
+    border-color: #00000000;
+    border-width: .7em;
+    border-radius: 50% 50% 50% 50%;
+
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    box-shadow: -.3em -.3em .25em var(--color-ring-light),
+        .3em .3em .25em var(--color-ring-light);
+}
+
+button:focus {
+    border-radius: 50% 50% 50% 50%;
+    color: var(--color-ring-dark);
+    border-color: var(--color-ring-dark);
+}
+
+button:active {
+    top: -3em;
 }
 
 img {
